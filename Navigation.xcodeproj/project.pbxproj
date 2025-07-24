@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		30F871E72E32A1B2006687F4 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F871E62E32A1B2006687F4 /* SecondView.swift */; };
+		30F871E92E32A4F5006687F4 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F871E82E32A4F5006687F4 /* ThirdView.swift */; };
+		30F871EB2E32A734006687F4 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F871EA2E32A734006687F4 /* FourthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30F871D82E329D5B006687F4 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F871E62E32A1B2006687F4 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondView.swift; path = ../SecondView.swift; sourceTree = SOURCE_ROOT; };
+		30F871E82E32A4F5006687F4 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdView.swift; path = ../ThirdView.swift; sourceTree = SOURCE_ROOT; };
+		30F871EA2E32A734006687F4 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FourthView.swift; path = ../FourthView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +41,8 @@
 		30F871CF2E329D5B006687F4 = {
 			isa = PBXGroup;
 			children = (
+				30F871E82E32A4F5006687F4 /* ThirdView.swift */,
+				30F871EA2E32A734006687F4 /* FourthView.swift */,
 				30F871E62E32A1B2006687F4 /* SecondView.swift */,
 				30F871DA2E329D5B006687F4 /* Navigation */,
 				30F871D92E329D5B006687F4 /* Products */,
@@ -125,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F871E92E32A4F5006687F4 /* ThirdView.swift in Sources */,
 				30F871E72E32A1B2006687F4 /* SecondView.swift in Sources */,
+				30F871EB2E32A734006687F4 /* FourthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

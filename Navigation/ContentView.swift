@@ -11,25 +11,27 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("This is the root view")
+                Text("This is the first view!")
                 NavigationLink(destination: SecondView()){
                     Text("Click me!")
+                    
+                                
+                            }
+                        }
+                        .navigationTitle("Home")
+                        .navigationBarTitleDisplayMode(.inline)
+                        .navigationBarHidden(true)
                         
                     }
+                    
                 }
             }
-        
-        .navigationTitle("Home")
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarHidden(true)
-        
-        }
-    }
             
-        
     
-
-
-#Preview {
-    ContentView()
-}
+    
+    
+    
+    
+    #Preview {
+        ContentView()
+    }
