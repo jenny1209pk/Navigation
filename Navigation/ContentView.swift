@@ -13,18 +13,19 @@ struct ContentView: View {
             VStack {
                 Text("This is the first view!")
                 NavigationLink(destination: SecondView()){
-                    Text("Click me!")
+                    Text("About")
                     
                     
                 }
             }
             
             NavigationLink(destination: ThirdView()){
-                Text("About")
+                Text("Contact")
             }
             
-            
-            
+            NavigationLink(destination: FourthView()){
+                Text("Help")
+            }
             
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
