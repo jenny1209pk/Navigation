@@ -41,9 +41,9 @@
 		30F871CF2E329D5B006687F4 = {
 			isa = PBXGroup;
 			children = (
+				30F871E62E32A1B2006687F4 /* SecondView.swift */,
 				30F871E82E32A4F5006687F4 /* ThirdView.swift */,
 				30F871EA2E32A734006687F4 /* FourthView.swift */,
-				30F871E62E32A1B2006687F4 /* SecondView.swift */,
 				30F871DA2E329D5B006687F4 /* Navigation */,
 				30F871D92E329D5B006687F4 /* Products */,
 			);

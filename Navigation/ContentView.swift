@@ -15,17 +15,25 @@ struct ContentView: View {
                 NavigationLink(destination: SecondView()){
                     Text("Click me!")
                     
-                                
-                            }
-                        }
-                        .navigationTitle("Home")
-                        .navigationBarTitleDisplayMode(.inline)
-                        .navigationBarHidden(true)
-                        
-                    }
                     
                 }
             }
+            
+            NavigationLink(destination: ThirdView()){
+                Text("About")
+            }
+            
+            
+            
+            
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
+        }
+    }
+}
+
+
             
     
     
